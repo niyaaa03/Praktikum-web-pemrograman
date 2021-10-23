@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body{
+    background-color: #666;
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    margin: 10px auto;
+    border: 5px solid white;
+    overflow: auto;
+}
+
+.thumb{
+    width: 200px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.thumb:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade{
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.active{
+    opacity: 0.5;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#993333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px white;
+    margin: 30px;
+  }
+  
+.button:hover{
+    background-color: #3e8e41
+}
+  
+.button:active{
+    background-color: #339299;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(70, 194, 211);
+}
+
+#container{
+    background-color: rgb(70, 194, 211);
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: rgb(70, 194, 211))
+    min-height: 50px;
+    text-align: left;
+}
+
+#header h1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#content{
+    background-color: rgb(70, 194, 211)
+    color:white;
+    text-align: left;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#993333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px white;
+  }
+  
+.button:hover{
+    background-color: #3e8e41
+}
+  
+.button:active{
+    background-color: #993333;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+
+#footer{
+    background-color: rgb(70, 194, 211);
+    color: white;
+    min-height: 50px;
+    text-align: right;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'DM Sans', sans-serif;
+}
+
